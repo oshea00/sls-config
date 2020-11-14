@@ -8,7 +8,6 @@ namespace AwsDotnetCsharp
     public class Handler
     {
       IConfiguration configuration;
-      public string LogLevel { get; set; }
       public Handler()
       {
           configuration = new ConfigurationBuilder()
