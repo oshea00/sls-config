@@ -24,6 +24,8 @@ Small example of how to setup a serverless-created template project to load conf
     </Content> 
   </ItemGroup>
 ```
+7. Add constructor as-shown in Handler.cs. This builds `IConfiguration` and loads appsettings.json.
+
 ## Running
 
 ### Local Debug
